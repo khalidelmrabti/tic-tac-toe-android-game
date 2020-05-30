@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/**
+ * Created by KHALID EL MRABTI / Khalid Coding on 30/05/20.
+ */ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ChoosePlayer">
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIC TAC TOE"
+        android:textSize="40sp"
+        android:fontFamily="@font/nicefont"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play With Friends"
+        android:layout_centerInParent="true"
+        android:background="#31668e"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="@font/nicefont"
+        android:layout_margin="30dp"
+        android:id="@+id/play_with_friends"/>
+
+    <Button
+        android:layout_below="@+id/play_with_friends"
+        android:id="@+id/play_with_ai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play With Ai"
+        android:layout_centerInParent="true"
+        android:background="#31668e"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="@font/nicefont"
+        android:layout_margin="30dp"/>
+</RelativeLayout>
