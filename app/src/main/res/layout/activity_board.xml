@@ -220,7 +220,7 @@
         android:layout_height="40dp"
         android:src="@drawable/ic_arrow_back"
         android:id="@+id/back"
-        android:layout_above="@+id/reset_btn"
+        android:layout_above="@+id/btn_reset"
         android:layout_margin="20dp"/>
 
     <Button
@@ -228,7 +228,7 @@
         android:layout_height="wrap_content"
         android:background="#31668e"
         android:layout_alignParentBottom="true"
-        android:id="@+id/reset_btn"
+        android:id="@+id/btn_reset"
         android:text="Reset"
         android:textColor="@android:color/white"
         android:textSize="25sp"/>
